@@ -10,7 +10,6 @@ var source;
 function fileSelected(filelist){
 	window.AudioContext = window.AudioContext || window.webkitAudioContext;
 	context = new AudioContext();
-
 	file = filelist.files[0];
 	url = URL.createObjectURL(file);
 	AUDIOFILE = [url];
